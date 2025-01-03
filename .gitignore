@@ -18,6 +18,9 @@
 /public/storage
 /storage/*.key
 /storage/pail
+/storage/framework/cache/data
+/storage/framework/views
+/storage/logs/laravel.log
 /vendor
 Homestead.json
 Homestead.yaml
