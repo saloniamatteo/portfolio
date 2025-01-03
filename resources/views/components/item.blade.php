@@ -7,7 +7,7 @@
             {{ $title }}
         </h2>
 
-        <span class="ml-2 font-bold text-lg">
+        <span class="font-bold text-lg">
             € {{ $price }}
         </span>
 
