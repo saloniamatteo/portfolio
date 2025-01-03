@@ -3,12 +3,12 @@
     <div class="col-6">
     <div class="content u-text-left pt-0">
         <!-- Title -->
-        <h2 class="title {{ $font }} u-inline-flex">
+        <h2 class="title {{ $font }}">
             {{ $title }}
         </h2>
 
-        <span class="ml-2 font-bold {{ $font }} text-lg">
-            € {{ $price ?? '' }}
+        <span class="ml-2 font-bold text-lg">
+            € {{ $price }}
         </span>
 
         <!-- Desc -->
