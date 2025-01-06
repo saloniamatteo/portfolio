@@ -32,15 +32,12 @@
 	<link rel="shortcut icon" href="{{ $favicon }}">
 
 	<!-- CSS & Fonts -->
-	@vite(['resources/css/cirrus.min.css', 'resources/css/fonts/fonts.css'])
+	@vite([
+		'resources/css/cirrus.min.css',
+		'resources/css/fonts/fonts.css',
+		'resources/css/overrides.css',
+	])
 
 	<!-- JS -->
 	@vite(['resources/js/main.js'])
-
-	<!-- Overrides -->
-	<style>
-	.card { box-shadow: none }
-	code { padding: .2rem }
-	.shadow { text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000 }
-	</style>
 </head>
