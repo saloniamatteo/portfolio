@@ -1,10 +1,10 @@
 @use('App\Helpers\Locale')
 
 <!-- Header -->
-<div class="header header-animated header-fixed u-unselectable" style="backdrop-filter: blur(8px); background-color: #fffc; border-bottom: 1px solid">
+<div class="header header-animated header-fixed u-unselectable blurbg" style="border-bottom: 1px solid">
 	<div class="header-brand">
 		<a href="/ristorante">
-			<h2 class="pinyon text-black pt-1 pt-0-md">Ristorante</h2>
+			<h2 class="pinyon text-black pt-1">Ristorante</h2>
 		</a>
 
 		<div class="nav-item nav-btn" id="header-btn">

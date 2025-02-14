@@ -1,16 +1,17 @@
 @use('App\Helpers\Locale')
 
 <!-- Header -->
-<div class="header header-animated header-fixed u-unselectable u-shadow-none" style="background-color: #1d1d1b">
+<div class="header header-animated header-fixed u-unselectable u-shadow-none blurbg-dark" style="background-color: #1d1d1b">
 	<div class="header-brand">
 		<a href="/pizzeria">
-			<h2 class="pinyon text-white mt-1 pt-1 pt-0-md">Pizzeria</h2>
+			<h2 class="pinyon text-white pt-1 pt-0-md">Pizzeria</h2>
 		</a>
 
-		<div class="nav-item nav-btn bg-white" id="header-btn">
-			<span></span>
-			<span></span>
-			<span></span>
+		<div id="header-btn"
+			class="nav-item nav-btn" style="background-color: #1d1d1d">
+			@for ($i = 0; $i < 3; $i++)
+				<span style="background-color: white"></span>
+			@endfor
 		</div>
 	</div>
 

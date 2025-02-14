@@ -8,7 +8,7 @@
 <body>
 @include('static/header-pizzeria')
 
-<div style="padding: 1.6rem 0"></div>
+<div style="padding: 1.6rem 0; background-color: #1d1d1d"></div>
 
 <!-- Pizzeria-->
 <div class="hero u-text-center" id="pizzeria">
