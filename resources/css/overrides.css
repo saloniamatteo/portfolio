@@ -4,8 +4,25 @@
 /* Add margin on top of selected items (/page#item) */
 h1, h3 { scroll-margin-top: 5rem }
 
+/* Background: blur */
+.blurbg {
+    backdrop-filter: blur(8px) !important;
+    background-color: hsla(0, 0%, 100%, .88) !important
+}
+
+.blurbg-dark {
+    backdrop-filter: blur(8px) !important;
+    background-color: hsl(from black h s l / 88%) !important
+}
+
 /* Remove shadows from cards */
 .card { box-shadow: none }
 
 /* Add shadows to text on top of bg */
-.shadow { text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000 }
+.shadow {
+    text-shadow: 3px 3px 0 #000,
+                -1px -1px 0 #000,
+                1px -1px 0 #000,
+                -1px  1px 0 #000,
+                1px  1px 0 #000
+}
