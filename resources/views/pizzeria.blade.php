@@ -24,7 +24,7 @@
 	<div>
 		<!-- Title -->
 		<h2 class="title text-white shadow">
-			Pizzeria <i>&ldquo;La mia&bdquo;</i>
+			Pizzeria <em>&ldquo;La mia&bdquo;</em>
 		</h2>
 
 		<!-- Desc -->
@@ -46,7 +46,7 @@
 	</x-title-pinyon>
 
 	<!-- Desc -->
-	<p class="text-black text-lg w-90p u-center">
+	<p class="text-black text-lg w-90p u-center nunito">
 		{{ __('pizzeria.chi-siamo') }}
 	</p>
 </div>
@@ -146,7 +146,7 @@
 	</x-title-pinyon>
 
 	<!-- Desc -->
-	<p class="text-lg">
+	<p class="text-lg nunito">
 		{{ __('pizzeria.recapiti.desc') }}
 	</p>
 

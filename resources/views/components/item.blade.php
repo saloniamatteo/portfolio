@@ -12,11 +12,11 @@
         </span>
 
         <!-- Desc -->
-        <p class="text-lg">{{ $desc }}</p>
+        <p class="text-lg nunito">{{ $desc }}</p>
 
         <!-- Ingredients -->
         <p>
-        <em>
+        <em class="nunito">
             {{ __('glob.ingredients') }}
             {{ $ingredients }}
         </em>

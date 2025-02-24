@@ -24,7 +24,7 @@
 	<div>
 		<!-- Title -->
 		<h2 class="title text-white shadow">
-			Ristorante <i>&ldquo;Il mio&bdquo;</i>
+			Ristorante <em>&ldquo;Il mio&bdquo;</em>
 		</h2>
 
 		<!-- Desc -->
@@ -46,7 +46,7 @@
 	</x-title-playball>
 
 	<!-- Desc -->
-	<p class="text-black text-lg w-90p u-center">
+	<p class="text-black text-lg w-90p u-center nunito">
 		{{ __('ristorante.chi-siamo') }}
 	</p>
 </div>
@@ -150,7 +150,7 @@
 	</x-title-playball>
 
 	<!-- Desc -->
-	<p class="text-lg">
+	<p class="text-lg nunito">
 		{{ __('ristorante.recapiti.desc') }}
 	</p>
 
