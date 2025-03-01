@@ -6,11 +6,14 @@ dir=$(pwd)
 [[ $(basename $dir) == "scripts" ]] && cd ..
 
 # Install deps
-composer install
-npm i
+composer update
+npm update
 
-# Regenerate key
-composer cache
+# Fix any security issues
+npm audit fix
+
+# Clear cache & Regenerate key
+php artisan optimize:clear
 php artisan key:generate --force
 
 # Build & cache assets
