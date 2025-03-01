@@ -23,12 +23,12 @@
 	<!-- Text -->
 	<div>
 		<!-- Title -->
-		<h2 class="title text-white shadow">
+		<h2 class="text-white shadow">
 			Pizzeria <em>&ldquo;La mia&bdquo;</em>
 		</h2>
 
 		<!-- Desc -->
-		<h5 class="subtitle text-white shadow">
+		<h5 class="text-white shadow">
 			{{ __('pizzeria.logo-desc') }}
 		</h5>
 	</div>
