@@ -4,9 +4,10 @@
     "description": "Matteo Salonia's portfolio",
     "require": {
         "php": "^8.2",
-        "laravel/framework": "^11.9"
+        "laravel/framework": "^12.0"
     },
     "require-dev": {
+        "laravel/envoy": "^2.10",
         "laravel/pail": "^1.1",
         "laravel/pint": "^1.13",
         "nunomaduro/collision": "^8.1"
@@ -22,6 +23,9 @@
             "@php artisan view:cache",
             "@php artisan route:cache",
             "@php artisan optimize"
+        ],
+        "deploy": [
+            "./vendor/bin/envoy run deploy"
         ],
         "lint": [
             "./vendor/bin/pint -v"
