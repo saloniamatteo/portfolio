@@ -4,7 +4,7 @@
 <div class="header header-animated header-fixed u-unselectable u-shadow-none blurbg-dark" style="background-color: #1d1d1b">
 	<div class="header-brand">
 		<a href="/pizzeria">
-			<h2 class="pinyon text-white pt-1 pt-0-md">Pizzeria</h2>
+			<h2 class="pinyon text-white pt-1 md:pt-0">Pizzeria</h2>
 		</a>
 
 		<div id="header-btn"
